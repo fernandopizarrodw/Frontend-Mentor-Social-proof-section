@@ -159,147 +159,112 @@ h1 {
         align-self: unset;
     }
 }
-
-
-
-@media (min-width: 992px) {
-    main{
-        margin-top: 100px;
-        margin-left: 150px;
-        margin-right: 150px;
+@media (min-width: 1440px) {
+    main {
+      max-width: 1300px;
+      margin: 0 auto;
+      padding: 4rem 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
     }
-    h1 {
-        text-align: left;
-        max-width: 400px;
-        width: 90%;
-        margin: 150px 250px 30px 170px;
-        font-size: 3rem;
-    }
-
-    .description {
-        text-align: start;
-        font-size: 1.7rem;
-        color: #8a7d8a;
-        line-height: 2.1rem;
-        width: 90%;
-        max-width: 650px;
-        margin: 10px 250px 50px 170px;
-
-
-    }
-
-    .reviews {
-        text-align: right;
-        align-items: flex-start;
-        margin-top: 70px;
-
-    }
-
-
-
-    .reviews p {
-        font-weight: 900;
-        font-size: 20px;
-        margin-bottom: 30px;
-    }
-
+  
     .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      text-align: left;
+      gap: 5rem;
+      max-width: 1200px;
     }
-
-    .first {
-        margin: 90px 450px 0 15px;
-        display: flex;
-
-        width: 50%;
-        padding-top: 20px;
-
+  
+    .h1 {
+      max-width: 900px;
+      margin-right: 0;
     }
-
-    .first p {
-        margin-left: 30px;
+  
+    h1 {
+      font-size: 3.5rem;
+      text-align: left;
+      margin: 50px 0px 0 0;
     }
-
-    .second {
-        margin: 20px 50px 0 70px;
-        display: flex;
-
-        width: 60%;
-        padding-top: 20px;
-
+  
+    .description {
+      text-align: left;
+      font-size: 1.6rem;
+      margin: 0 0 0 0;
+      width: 600px;
     }
-
-    .second p {
-        margin-left: 30px;
+  
+    .reviews-container {
+      display: flex;
+      flex-direction: column;
+      margin-left: 100px;
+      margin-top: 50px;
+      
     }
-
-    .third {
-        margin: 20px 50px 0 120px;
-        display: flex;
-
-        width: 60%;
-        padding-top: 20px;
-
+  
+    .reviews {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background-color: var(--light-grayish-magenta);
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      width: 400px;
+      margin: 0;
     }
-
-    .third p {
-        margin-left: 30px;
+  
+    .reviews p {
+      margin: 0;
+      font-size: 1.3rem;
     }
-
-    section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        min-height: 500px;
-        width: 90%;
-        max-width: 1300px;
-        margin-left: auto;
-        margin-right: auto;
-
-
-
-
+  
+    /* Posicionamiento escalonado */
+    .reviews.first {
+      margin-left: 0;
+      width: 1000px;
     }
-
-
-
+  
+    .reviews.second {
+      margin-left: 40px;width: 1000px;
+    }
+  
+    .reviews.third {
+      margin-left: 80px;width: 1000px;
+    }
+  
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+    }
+  
     .card-smith {
-        background-color: var(--very-dark-magenta);
-        width: 90%;
-        max-width: 400px;
-        border-radius: 10px;
-        height: 300px;
-
+      margin: 0;
+      padding: 2rem;
+      max-width: 100%;
     }
-
-
+  
     .primero {
-        align-self: flex-start;
+      transform: translateY(-20px);
     }
-
+  
     .segundo {
-        align-self: center;
+      transform: translateY(0px);
     }
-
+  
     .tercero {
-        align-self: flex-end;
+      transform: translateY(20px);
     }
-
+  
     .card-smith p {
-        color: var(--white);
-        font-size: 1.1rem;
-        margin: 40px 60px 20px 50px;
-        line-height: 1.5rem;
+      font-size: 1.3rem;
+      margin: 1rem 0 0 0;
     }
+  }
+  
 
-    .card-smith img {
-        border-radius: 50px;
-        width: 50px;
-        margin: 30px 10px 0px 50px;
+ 
 
-    }
-}
-
+   
