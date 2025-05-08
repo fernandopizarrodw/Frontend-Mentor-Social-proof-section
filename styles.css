@@ -176,6 +176,8 @@ h1 {
       text-align: left;
       gap: 5rem;
       max-width: 1200px;
+      margin-left: 100px;
+      margin-right: 500px;
     }
   
     .h1 {
@@ -186,7 +188,7 @@ h1 {
     h1 {
       font-size: 3.5rem;
       text-align: left;
-      margin: 50px 0px 0 0;
+      margin: 50px 0px 15px 0;
     }
   
     .description {
@@ -199,8 +201,8 @@ h1 {
     .reviews-container {
       display: flex;
       flex-direction: column;
-      margin-left: 100px;
-      margin-top: 50px;
+      margin-left: 10px;
+      margin-top: 80px;
       
     }
   
@@ -238,6 +240,7 @@ h1 {
       display: flex;
       justify-content: space-between;
       gap: 2rem;
+      margin-left: 100px;
     }
   
     .card-smith {
