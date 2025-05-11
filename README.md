@@ -8,7 +8,7 @@ A testimonial layout using Flexbox with responsive design for mobile and desktop
 
 ### Screenshot
 
-![Desktop Screenshot](./screenshot.jpg)
+![Desktop Screenshot](./images/screenshot-desktop.jpg)
 
 ### Links
 
